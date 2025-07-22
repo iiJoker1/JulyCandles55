@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "quantity": 1,
+        "name": "Blue Bubble Candle",
+        "price": "1",
+        "img": "/images/product images/candles/bubble/candle_bubble_baby_blue.jpg",
+        "span": "Large"
+    },
+    {
+        "id": 2,
+        "quantity": 1,
+        "name": "Green Bubble Candle",
+        "price": "2",
+        "img": "/images/product images/candles/bubble/candle_bubble_baby_blue.jpg",
+        "span": "Large"
+
+    },
+    {
+        "id": 3,
+        "quantity": 1,
+        "name": "Red Bubble Candle",
+        "price": "3",
+        "img": "/images/product images/candles/bubble/candle_bubble_baby_blue.jpg",
+        "span": "Large"
+
+    },
+    {
+        "id": 4,
+        "quantity": 1,
+        "name": "Yellow Bubble Candle",
+        "price": "4",
+        "img": "/images/product images/candles/bubble/candle_bubble_baby_blue.jpg",
+        "span": "Large"
+
+    }
+]
+
+

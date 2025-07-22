@@ -1,0 +1,298 @@
+[
+    {
+        "id": "1",
+        "name": "Blue Bubble Candle",
+        "span": "Large",
+        "image": "/images/product images/candles/bubble/candle_bubble_baby_blue.jpg",
+        "price": 100,
+        "description": "hello"
+      },
+      {
+        "id": "2",
+        "name": "Green Bubble Candle",
+        "span": "Large",
+        "image": "/images/product images/candles/bubble/candle_bubble_green.jpg",
+        "price": 1
+      },
+      {
+        "id": "3",
+        "name": "Rainbow Bubble Candle",
+        "span": "Large",
+        "image": "/images/product images/candles/bubble/candle_bubble_rainbow.jpg",
+        "price": 1
+      },
+      {
+        "id": "4",
+        "name": "Pink Bubble Candle",
+        "span": "Large",
+        "image": "/images/product images/candles/bubble/candle_bubble_pink.jpg",
+        "price": 1
+      },
+      {
+        "id": "5",
+        "name": "Dark Candle Bubble",
+        "span": "Small",
+        "image": "/images/product images/candles/bubble/candle_bubble_small_dark.jpg",
+        "price": 1
+      },
+      {
+        "id": "6",
+        "name": "Green Bubble Candle",
+        "span": "Small",
+        "image": "/images/product images/candles/bubble/candle_bubble_small_green.jpg",
+        "price": 1
+      },
+      {
+        "id": "7",
+        "name": "Pink Bubble Candle",
+        "span": "Small",
+        "image": "/images/product images/candles/bubble/candle_bubble_small_pink.jpg",
+        "price": 1
+      },
+      {
+        "id": "8",
+        "name": "Yellow Bubble Candle",
+        "span": "Small",
+        "image": "/images/product images/candles/bubble/candle_bubble_small_yellow.jpg",
+        "price": 1
+      },{
+        "id": "9",
+        "name": "Candle Jar",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar_small_yellow.jpg"
+      },
+      {
+        "id": "10",
+        "name": "Candle Jar 2",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar_red.jpg"
+      },
+      {
+        "id": "11",
+        "name": "Candle Jar 3",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar_yellow.jpg"
+      },
+      {
+        "id": "12",
+        "name": "Candle Jar 4",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar_small_red.jpg"
+      },
+      {
+        "id": "13",
+        "name": "Candle Jar 5",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar4.jpg"
+      },
+      {
+        "id": "14",
+        "name": "Candle Jar 6",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar1.jpg"
+      },
+      {
+        "id": "15",
+        "name": "Candle Jar 7",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar2.jpg"
+      },
+      {
+        "id": "16",
+        "name": "Candle Jar 8",
+        "span": "Jar",
+        "price": 1,
+        "image": "/images/product images/candles/jar/candle_jar3.jpg"
+      },
+      {
+        "id": "17",
+        "name": "White Candle sheep",
+        "span": "sheep",
+        "price": 1,
+        "image": "/images/product images/candles/sheep/candle_sheep_white.jpg"
+      },
+      {
+        "id": "18",
+        "name": "Green Candle sheep",
+        "span": "sheep",
+        "price": 1,
+        "image": "/images/product images/candles/sheep/candle_sheep_green.jpg"
+      },
+      {
+        "id": "19",
+        "name": "Yellow Candle sheep",
+        "span": "sheep",
+        "price": 1,
+        "image": "/images/product images/candles/sheep/candle_sheep_yellow.jpg"
+      },
+      {
+        "id": "20",
+        "name": "Pink Candle sheep",
+        "span": "sheep",
+        "price": 1,
+        "image": "/images/product images/candles/sheep/candle_cheep_pink.jpg"
+      },
+      {
+        "id": "21",
+        "name": "Mediume Bottle",
+        "span": "50 mg",
+        "image": "/images/product images/perfumes/perfume1.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "22",
+        "name": "Mediume Bottle 2",
+        "span": "50 mg",
+        "image": "/images/product images/perfumes/perfume2.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "23",
+        "name": "Mediume Bottle 3",
+        "span": "50 mg",
+        "image": "/images/product images/perfumes/perfume3.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "24",
+        "name": "Big bottle",
+        "span": "30 mg",
+        "image": "/images/product images/perfumes/perfume4.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "25",
+        "name": "Mediume Bottle 4",
+        "span": "50 mg",
+        "image": "/images/product images/perfumes/perfume5.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "26",
+        "name": "Mediume Bottle 5",
+        "span": "50 mg",
+        "image": "/images/product images/perfumes/perfume6.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "27",
+        "name": "Mediume Bottle 6",
+        "span": "50 mg",
+        "image": "/images/product images/perfumes/perfume7.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "28",
+        "name": "",
+        "span": "20 mg",
+        "image": "/images/product images/perfumes/perfume8.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "29",
+        "name": "",
+        "span": "20 mg",
+        "image": "/images/product images/perfumes/perfume9.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "30",
+        "name": "Mediume Bottle 8",
+        "span": "20 mg",
+        "image": "/images/product images/perfumes/perfume10.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "31",
+        "name": "",
+        "span": "20 mg",
+        "image": "/images/product images/perfumes/perfume8.jpg",
+        "price":  1.5
+      },
+      {
+        "id": "32",
+        "name": "Small Bottle",
+        "span": "20 mg",
+        "image": "/images/product images/perfumes/perfume8.jpg",
+        "price":  1.5
+      },
+      {
+      "id": "33",
+      "name": "handmade items",
+      "image": "/images/product images/hand-made/handmade1.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "34",
+      "name": "handmade items 2",
+      "image": "/images/product images/hand-made/handmade2.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "35",
+      "name": "handmade items 3",
+      "image": "/images/product images/hand-made/handmade3.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "36",
+      "name": "handmade items 4",
+      "image": "/images/product images/hand-made/handmade4.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "37",
+      "name": "handmade items 5",
+      "image": "/images/product images/hand-made/handmade5.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "38",
+      "name": "handmade items 6",
+      "image": "/images/product images/hand-made/handmade6.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "39",
+      "name": "handmade items 7",
+      "image": "/images/product images/hand-made/handmade7.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "40",
+      "name": "handmade items 8",
+      "image": "/images/product images/hand-made/handmade8.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "41",
+      "name": "handmade items 9",
+      "image": "/images/product images/hand-made/handmade9.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "42",
+      "name": "handmade items 10",
+      "image": "/images/product images/hand-made/handmade10.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "43",
+      "name": "handmade items 11",
+      "image": "/images/product images/hand-made/handmade11.jpg",
+      "price": 1.5
+  },
+  {
+      "id": "44",
+      "name": "handmade items 12",
+      "image": "/images/product images/hand-made/handmade12.jpg",
+      "price": 1.5
+  }
+]

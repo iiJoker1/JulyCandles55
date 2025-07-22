@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* HEADER */
+#header {
+  background-color: #fff;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+#header .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #555;
+  text-decoration: none;
+}
+
+
+/* SETTINGS CONTAINER */
+.settings-container {
+  background: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.settings-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.settings-container p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.settings-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.settings-container input[type="text"],
+.settings-container input[type="email"],
+.settings-container input[type="password"],
+.settings-container input[type="file"],
+.settings-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.settings-container button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.settings-container button:hover {
+  background-color: #2980b9;
+}
+
+#edit-btn {
+  background-color: #f39c12;
+}
+
+#edit-btn:hover {
+  background-color: #e67e22;
+}
+
+/* AVATAR IMAGE */
+.avatar-img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* -------------------------------
+   RESPONSIVE DESIGN
+-------------------------------- */
+@media (max-width: 768px) {
+
+  .settings-container {
+    margin: 30px 15px;
+    padding: 20px;
+  }
+
+  .settings-container h2 {
+    font-size: 22px;
+  }
+
+  .settings-container p,
+  .settings-container label,
+  .settings-container input,
+  .settings-container textarea,
+  .settings-container button {
+    font-size: 14px;
+  }
+
+  .avatar-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 28px;
+  }
+
+  .about-hero p {
+    font-size: 16px;
+  }
+
+  .about-content {
+    padding: 20px 15px;
+  }
+
+  .about-details {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    height: 200px;
+  }
+
+  .about-hero h1 {
+    font-size: 22px;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+  }
+
+
+  .about-content h2 {
+    font-size: 18px;
+  }
+
+  .about-content p,
+  .about-content ul li {
+    font-size: 14px;
+  }
+
+}

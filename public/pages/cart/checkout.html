@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout Page - July Candles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/logo1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/styles/checkout.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>مراجعة الطلب والدفع</h2>
+
+    <div id="cart-checkout"></div>
+
+    
+    <div id="total-price">الإجمالي: 0 جنيه</div>
+
+    <div class="form">
+      <label for="name">الاسم الكامل:</label>
+      <input type="text" id="name" placeholder="اكتب اسمك" />
+
+      <label for="phone">رقم الهاتف:</label>
+      <input type="text" id="phone" placeholder="رقم الهاتف" />
+
+      <label for="address">العنوان:</label>
+      <input type="text" id="address" placeholder="العنوان الكامل" />
+
+      <label for="discount-code">كود الخصم:</label>
+      <input type="text" id="discount-code" placeholder="ادخل كود الخصم هنا" />
+
+      <button id="apply-discount">تطبيق الكود</button>
+      <div id="discount-message"></div>
+
+      <!-- داخل div.form وتحت كود كود الخصم مباشرة -->
+
+      <label for="payment-method">طريقة الدفع:</label>
+<select id="payment-method" name="paymentMethod">
+  <option value="cash">عند الاستلام</option>
+  <!-- <option value="vodafone">فودافون كاش</option> -->
+</select>
+
+<div id="vodafone-info" style="display: none;">
+  <label for="payment-phone">رقم الدفع (فودافون كاش):</label>
+  <input type="text" id="payment-phone" name="paymentPhone" placeholder="01xxxxxxxxx" />
+</div>
+
+
+
+      <div class="buttons">
+        <button id="confirm">✅ شراء الآن</button>
+        <button id="edit">✏️ تعديل الطلب</button>
+        <button id="cancel">❌ إلغاء</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/checkout.js"></script>
+</body>
+</html>

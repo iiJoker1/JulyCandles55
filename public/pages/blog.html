@@ -1,0 +1,140 @@
+<!-- blog -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/logo1.jpg" type="image/x-icon">
+  <title>Blog - July Candles</title>
+  <link rel="stylesheet" href="/styles/blog.css">
+  <link rel="stylesheet" href="/styles/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+<!-- Navbar (نسخة من candles.html) -->
+<section id="header">
+  <a href="/home" class="logo">July Candles</a>
+  <div>
+    <ul id="navbar">
+      <li><a href="/home">Home</a></li>
+      <li class="dropdown">
+        <a href="/shop">Shop <i class="fa-solid fa-chevron-down"></i></a>
+        <!-- <ul class="dropdown-menu">
+          <li><a href="/shop/candles">Candles</a></li>
+          <li><a href="/shop/perfumes">Perfumes</a></li>
+          <li><a href="/shop/handmade">Handmade</a></li>
+        </ul> -->
+      </li>
+      <li><a class="active" href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li id="login-btn"><a href="/login" class="login-btn">Login</a></li>
+      <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      <li
+        class="user-avatar user-avatar-dropdown"
+        id="user-avatar"
+        style="display: none"
+      >
+        <div class="avatar-circle" id="avatar-display"></div>
+        <div class="user-avatar-dropdown-content" id="avatar-menu">
+          <a href="/account-settings">🔧 إعدادات الحساب</a>
+              <a href="/my-whitelist">❤️ صفحة المفضله</a>
+              <a href="/admin" class="dashboard-btn" style="display: none;">🔧 لوحة التحكم</a>
+          <a href="/logout">🔓 تسجيل الخروج</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="mobile">
+    <i id="bar" class="fas fa-outdent"></i>
+  </div>
+</section>
+  
+
+<section id="blog" class="section-p1">
+  <h2>مقالاتنا</h2>
+  <p>اكتشف كل جديد عن العطور والشموع والأعمال اليدوية</p>
+  <div class="blog-container">
+
+    <!-- مقال العطور -->
+    <div class="blog-box">
+      <div class="blog-img">
+        <img src="https://www.guerlain.com/dw/image/v2/BDCZ_PRD/on/demandware.static/-/Library-Sites-Guerlain_SharedLibrary/default/dw47c70aa1/Bestsellers/Fragrance/Art-et-la-matiere/AM_SQUARE-IMAGE_CONTENT-PAGE_ACCORD-PARFAIT_CHERRY-OUD_V2.jpg?sfrm=jpg&sw=768" alt="عطور فاخرة">
+      </div>
+      <div class="blog-details">
+        <h4>سحر العطور الفاخرة</h4>
+        <p>تعرف على أفضل أنواع العطور الفاخرة وكيف تختار العطر المناسب لشخصيتك...</p>
+        <a href="blog-details#perfumes">قراءة المزيد</a>
+      </div>
+    </div>
+
+    <!-- مقال الشموع -->
+    <div class="blog-box">
+      <div class="blog-img">
+        <img src="/images/product images/candles/bubble/all_candles_logo.jpg" alt="شموع معطرة">
+      </div>
+      <div class="blog-details">
+        <h4>عالم الشموع المعطرة</h4>
+        <p>كيفية اختيار أفضل الشموع المعطرة لإضفاء جو مميز ودافئ في منزلك...</p>
+        <a href="blog-details#candles">قراءة المزيد</a>
+      </div>
+    </div>
+
+    <!-- مقال الأعمال اليدوية -->
+    <div class="blog-box">
+      <div class="blog-img">
+        <img src="/images/handmade.png" alt="أعمال يدوية رائعة">
+      </div>
+      <div class="blog-details">
+        <h4>فن الأعمال اليدوية</h4>
+        <p>استكشف جمال الإبداع اليدوي وكيفية إضافة لمسة شخصية لمنزلك بهدايا يدوية مميزة...</p>
+        <a href="blog-details#handmade">قراءة المزيد</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- فوتر -->
+<footer class="section-p1">
+  <div class="col">
+    <h4>Contact</h4>
+    <p><strong>Phone:</strong> 01208246291 / 01096120305</p>
+    <p><strong>Hours:</strong> 10:00 AM - 12:00 PM. All days</p>
+    <div class="follow">
+      <h4>Follow Us</h4>
+      <div class="icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <h4>About</h4>
+    <a href="/about">About Us</a>
+    <a href="#">Delivery Information</a>
+    <a href="/privacy-policy">Privacy Polify</a>
+    <a href="/contact">Contact Us</a>
+  </div>
+  <div class="col">
+    <h4>My Account</h4>
+    <a href="/login">Sign In</a>
+    <a href="/cart">View Cart</a>
+    <a href="/my-whitelist">My WhiteList</a>
+    <a href="/contact">Help</a>
+  </div>
+  <div class="copyright">
+    <p>© 2024, <strong>Belal Ashraf</strong> - HTML CSS JS Ecommerce Template</p>
+  </div>
+</footer>
+
+
+<script src="/js/blog.js"></script>
+</body>
+</html>

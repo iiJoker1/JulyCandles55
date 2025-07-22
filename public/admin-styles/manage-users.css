@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 270px;
+    margin-top: 50px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f4f4f4;
+  }
+
+  select {
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+
+  
+.active{
+  background-color: #374151;
+}

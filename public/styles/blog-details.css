@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+.details-header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.details-header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.details-content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.details-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.details-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.back-btn:hover {
+  background: #388e3c;
+}
+
+
+/* -------------------------------
+   RESPONSIVE DESIGN
+-------------------------------- */
+@media (max-width: 768px) {
+  .details-header {
+    padding: 30px 15px;
+  }
+
+  .details-header h1 {
+    font-size: 28px;
+  }
+
+  .details-content {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .details-content p {
+    font-size: 16px;
+  }
+
+  .back-btn {
+    font-size: 15px;
+    padding: 10px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-header {
+    padding: 25px 10px;
+  }
+
+  .details-header h1 {
+    font-size: 22px;
+  }
+
+  .details-content p {
+    font-size: 15px;
+  }
+
+  .back-btn {
+    font-size: 14px;
+    padding: 9px 16px;
+  }
+
+}

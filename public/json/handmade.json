@@ -1,0 +1,74 @@
+[
+    {
+    "id": "33",
+    "name": "handmade items",
+    "image": "/images/product images/hand-made/handmade1.jpg",
+    "price": 1.5
+},
+{
+    "id": "34",
+    "name": "handmade items 2",
+    "image": "/images/product images/hand-made/handmade2.jpg",
+    "price": 1.5
+},
+{
+    "id": "35",
+    "name": "handmade items 3",
+    "image": "/images/product images/hand-made/handmade3.jpg",
+    "price": 1.5
+},
+{
+    "id": "36",
+    "name": "handmade items 4",
+    "image": "/images/product images/hand-made/handmade4.jpg",
+    "price": 1.5
+},
+{
+    "id": "37",
+    "name": "handmade items 5",
+    "image": "/images/product images/hand-made/handmade5.jpg",
+    "price": 1.5
+},
+{
+    "id": "38",
+    "name": "handmade items 6",
+    "image": "/images/product images/hand-made/handmade6.jpg",
+    "price": 1.5
+},
+{
+    "id": "39",
+    "name": "handmade items 7",
+    "image": "/images/product images/hand-made/handmade7.jpg",
+    "price": 1.5
+},
+{
+    "id": "40",
+    "name": "handmade items 8",
+    "image": "/images/product images/hand-made/handmade8.jpg",
+    "price": 1.5
+},
+{
+    "id": "41",
+    "name": "handmade items 9",
+    "image": "/images/product images/hand-made/handmade9.jpg",
+    "price": 1.5
+},
+{
+    "id": "42",
+    "name": "handmade items 10",
+    "image": "/images/product images/hand-made/handmade10.jpg",
+    "price": 1.5
+},
+{
+    "id": "43",
+    "name": "handmade items 11",
+    "image": "/images/product images/hand-made/handmade11.jpg",
+    "price": 1.5
+},
+{
+    "id": "44",
+    "name": "handmade items 12",
+    "image": "/images/product images/hand-made/handmade12.jpg",
+    "price": 1.5
+}
+]

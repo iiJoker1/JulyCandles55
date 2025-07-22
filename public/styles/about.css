@@ -1,0 +1,117 @@
+/* about.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+}
+
+/* HERO */
+.about-hero {
+  background: url("/images/logo1.jpg") no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 148, 206, 0.674);
+  padding: 0 20px;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+}
+
+/* CONTENT */
+.about-details {
+  padding: 50px 20px;
+}
+
+.about-content {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.about-content h2 {
+  margin-bottom: 10px;
+  color: rgb(213, 162, 33);
+}
+
+.about-content p, .about-content ul {
+  color: #666;
+  line-height: 1.8;
+}
+
+.about-content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+}
+
+.about-content ul li i {
+  margin-left: 10px;
+  color: #e07a5f;
+}
+
+
+/* -------------------------------
+   RESPONSIVE (Mobile First)
+-------------------------------- */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 28px;
+  }
+
+  .about-hero p {
+    font-size: 16px;
+  }
+
+  .about-content {
+    padding: 20px 15px;
+  }
+
+  .about-details {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    height: 200px;
+  }
+
+  .about-hero h1 {
+    font-size: 22px;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+  }
+
+
+  .about-content h2 {
+    font-size: 18px;
+  }
+
+  .about-content p,
+  .about-content ul li {
+    font-size: 14px;
+  }
+
+}

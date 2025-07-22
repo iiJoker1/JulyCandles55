@@ -1,0 +1,121 @@
+/* blog.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* contact.css */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #fdfdfd;
+    color: #333;
+  }
+  
+  #contact-header {
+    background: url("/images/logo1.jpg") no-repeat center center/cover;
+
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7bcaf5;
+    text-align: center;
+  }
+  
+  #contact-header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  #contact-header p {
+    font-size: 20px;
+  }
+  
+  #contact-section {
+    padding: 70px 10%;
+  }
+  
+  .contact-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    flex: 1 1 40%;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+    color: rgb(213, 162, 33);
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 10px 15px 0 0;
+    font-size: 22px;
+    color: rgb(213, 162, 33);
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(187, 135, 5);
+    transform: scale(1.2);
+  }
+  
+  .contact-form {
+    flex: 1 1 50%;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color: rgb(213, 162, 33);
+  }
+  
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-form form .btn {
+    background: rgb(213, 162, 33);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .contact-form form .btn:hover {
+    background: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    #contact-header h1 {
+      font-size: 32px;
+    }
+  }
+  

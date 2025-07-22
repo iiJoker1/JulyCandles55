@@ -1,0 +1,145 @@
+<!-- blog-details -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/logo1.jpg" type="image/x-icon" />
+    <title>Blog Details - July Candles</title>
+    <link rel="stylesheet" href="/styles/blog.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar (نسخة من candles.html) -->
+    <section id="header">
+      <a href="/home" class="logo">July Candles</a>
+      <div>
+        <ul id="navbar">
+          <li><a href="/home">Home</a></li>
+          <li class="dropdown">
+            <a href="/shop">Shop <i class="fa-solid fa-chevron-down"></i></a>
+            <!-- <ul class="dropdown-menu">
+              <li><a href="/shop/candles">Candles</a></li>
+              <li><a href="/shop/perfumes">Perfumes</a></li>
+              <li><a href="/shop/handmade">Handmade</a></li>
+            </ul> -->
+          </li>
+          <li><a class="active" href="/blog">Blog</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li id="login-btn"><a href="/login" class="login-btn">Login</a></li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          <li
+            class="user-avatar user-avatar-dropdown"
+            id="user-avatar"
+            style="display: none"
+          >
+            <div class="avatar-circle" id="avatar-display"></div>
+            <div class="user-avatar-dropdown-content" id="avatar-menu">
+              <a href="/account-settings">🔧 إعدادات الحساب</a>
+              <a href="/my-whitelist">❤️ صفحة المفضله</a>
+              <a href="/admin" class="dashboard-btn" style="display: none"
+                >🔧 لوحة التحكم</a
+              >
+              <a href="/logout">🔓 تسجيل الخروج</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="blog-details" class="section-p1">
+      <h2>تفاصيل مقالاتنا</h2>
+
+      <!-- تفاصيل مقال العطور -->
+      <article id="perfumes" class="article-box">
+        <h3>سحر العطور الفاخرة</h3>
+        <p>
+          العطور جزء أساسي من أناقتك اليومية. اختيار العطر المناسب يحتاج فهم
+          لطبقات الروائح (Top, Middle, Base). هناك العطور الخشبية، الزهرية،
+          الفاكهية وغيرها. استمتع بتجربة فريدة مع كل رشة من عطرك المفضل.
+        </p>
+        <img
+          src="https://www.guerlain.com/dw/image/v2/BDCZ_PRD/on/demandware.static/-/Library-Sites-Guerlain_SharedLibrary/default/dw47c70aa1/Bestsellers/Fragrance/Art-et-la-matiere/AM_SQUARE-IMAGE_CONTENT-PAGE_ACCORD-PARFAIT_CHERRY-OUD_V2.jpg?sfrm=jpg&sw=768"
+          alt="عطر فاخر"
+        />
+      </article>
+
+      <!-- تفاصيل مقال الشموع -->
+      <article id="candles" class="article-box">
+        <h3>عالم الشموع المعطرة</h3>
+        <p>
+          الشموع ليست فقط مصدر إضاءة بل أداة لخلق أجواء رومانسية أو استرخاء تام.
+          تعلم كيف تختار روائح تناسب مزاجك، مثل اللافندر للاسترخاء أو الفانيليا
+          للدفء. جرب الشموع الطبيعية للحصول على رائحة نقية وآمنة.
+        </p>
+        <img
+          src="/images/product images/candles/bubble/all_candles_logo.jpg"
+          alt="شمعة معطرة"
+        />
+      </article>
+
+      <!-- تفاصيل مقال الأعمال اليدوية -->
+      <article id="handmade" class="article-box">
+        <h3>فن الأعمال اليدوية</h3>
+        <p>
+          الأعمال اليدوية تعبر عن شخصية الإنسان وتضيف لمسة فريدة للمنازل. من
+          الهدايا المصنوعة يدوياً إلى الزخارف المنزلية، كل قطعة تحكي قصة. استثمر
+          وقتك في تعلم مهارات مثل الحياكة أو الرسم أو صناعة الشموع.
+        </p>
+        <img src="/images/handmade.png" alt="أعمال يدوية" />
+      </article>
+
+      <div class="back-to-blog">
+        <a href="blog" class="btn-back">⬅️ عودة إلى المقالات</a>
+      </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Phone:</strong> 01208246291 / 01096120305</p>
+        <p><strong>Hours:</strong> 10:00 AM - 12:00 PM. All days</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="/about">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="/privacy-policy">Privacy Polify</a>
+        <a href="/contact">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="/login">Sign In</a>
+        <a href="/cart">View Cart</a>
+        <a href="/my-whitelist">My WhiteList</a>
+        <a href="/contact">Help</a>
+      </div>
+      <div class="copyright">
+        <p>
+          © 2024, <strong>Belal Ashraf</strong> - HTML CSS JS Ecommerce Template
+        </p>
+      </div>
+    </footer>
+
+    <script src="/js/blog.js"></script>
+  </body>
+</html>

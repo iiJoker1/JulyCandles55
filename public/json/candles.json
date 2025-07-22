@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1",
+    "name": "Blue Bubble Candle",
+    "span": "Large",
+    "image": "/images/product images/candles/bubble/candle_bubble_baby_blue.jpg",
+    "price": 100,
+    "description": "hello"
+  },
+  {
+    "id": "2",
+    "name": "Green Bubble Candle",
+    "span": "Large",
+    "image": "/images/product images/candles/bubble/candle_bubble_green.jpg",
+    "price": 1
+  },
+  {
+    "id": "3",
+    "name": "Rainbow Bubble Candle",
+    "span": "Large",
+    "image": "/images/product images/candles/bubble/candle_bubble_rainbow.jpg",
+    "price": 1
+  },
+  {
+    "id": "4",
+    "name": "Pink Bubble Candle",
+    "span": "Large",
+    "image": "/images/product images/candles/bubble/candle_bubble_pink.jpg",
+    "price": 1
+  },
+  {
+    "id": "5",
+    "name": "Dark Candle Bubble",
+    "span": "Small",
+    "image": "/images/product images/candles/bubble/candle_bubble_small_dark.jpg",
+    "price": 1
+  },
+  {
+    "id": "6",
+    "name": "Green Bubble Candle",
+    "span": "Small",
+    "image": "/images/product images/candles/bubble/candle_bubble_small_green.jpg",
+    "price": 1
+  },
+  {
+    "id": "7",
+    "name": "Pink Bubble Candle",
+    "span": "Small",
+    "image": "/images/product images/candles/bubble/candle_bubble_small_pink.jpg",
+    "price": 1
+  },
+  {
+    "id": "8",
+    "name": "Yellow Bubble Candle",
+    "span": "Small",
+    "image": "/images/product images/candles/bubble/candle_bubble_small_yellow.jpg",
+    "price": 1
+  },
+  {
+    "id": "9",
+    "name": "Candle Jar",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar_small_yellow.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Candle Jar 2",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar_red.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Candle Jar 3",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar_yellow.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Candle Jar 4",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar_small_red.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Candle Jar 5",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar4.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Candle Jar 6",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar1.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Candle Jar 7",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar2.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Candle Jar 8",
+    "span": "Jar",
+    "price": 1,
+    "image": "/images/product images/candles/jar/candle_jar3.jpg"
+  },
+  {
+    "id": "17",
+    "name": "White Candle sheep",
+    "span": "sheep",
+    "price": 1,
+    "image": "/images/product images/candles/sheep/candle_sheep_white.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Green Candle sheep",
+    "span": "sheep",
+    "price": 1,
+    "image": "/images/product images/candles/sheep/candle_sheep_green.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Yellow Candle sheep",
+    "span": "sheep",
+    "price": 1,
+    "image": "/images/product images/candles/sheep/candle_sheep_yellow.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Pink Candle sheep",
+    "span": "sheep",
+    "price": 1,
+    "image": "/images/product images/candles/sheep/candle_cheep_pink.jpg"
+  }
+]

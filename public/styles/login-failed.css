@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .toast {
+    visibility: hidden;
+    width: 200px;
+    margin: auto;
+    background-color: #ffdddd;
+    color: #a94442;
+    text-align: center;
+    border: 1px solid #e0b4b4;
+    border-radius: 6px;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: opacity 0.8s ease, top 0.8s ease;
+  }
+  
+  .toast.show {
+    visibility: visible;
+    top: 10px;
+    opacity: 1;
+  }
+  
+  
+  .container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    border-top: 6px solid #e53935;
+    max-width: 400px;
+  }
+  
+  h1 {
+    color: #e53935;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #e53935;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background-color: #c62828;
+  }
+  
+  .btn.secondary {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #ddd;
+  }
+  

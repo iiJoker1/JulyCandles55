@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Belal",
+    "fatherName": "Ashraf",
+    "email": "belalghanane@gmail.com",
+    "password": "AAAlexander111",
+    "phone": "01208246291",
+    "role": "admin",
+    "avatar": "/avatars/belalghanane_gmail_com.jpg"
+  },
+  {
+    "name": "Asmaa",
+    "fatherName": "Ashraf",
+    "email": "asmaaashraf@gmail.com",
+    "password": "123456",
+    "phone": "01096120305",
+    "avatar": "/avatars/asmaaashraf_gmail_com.png"
+  }
+]

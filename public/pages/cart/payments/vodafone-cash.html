@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>الدفع عبر فودافون كاش</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/payments/vodafone-cash.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>الدفع عبر فودافون كاش</h2>
+    <p>يرجى تحويل المبلغ إلى الرقم التالي:</p>
+    <p>لعدم حدوث اخطاء ولنخلي مسؤليتنا تأكد ان الرقم الذي ادخلته في طريقة دفع الفودافون كاش نفس الرقم الذي يكون بالايصال:</p>
+    <div class="number">01096120305</div>
+    <p>ثم قم برفع صورة الإيصال هنا:</p>
+
+    <form id="receiptForm" enctype="multipart/form-data">
+      <input type="file" name="receipt" accept="image/*" required>
+      <button type="submit">إرسال الإيصال</button>
+    </form>
+
+  </div>
+
+  <script src="/js/payments/vodafone-cash.js"></script>
+
+</body>
+</html>

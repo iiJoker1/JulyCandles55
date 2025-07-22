@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - July Candles</title>
+  <link rel="icon" href="/images/logo1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/styles/contact.css">
+  <link rel="stylesheet" href="/styles/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  
+  
+<!-- Navbar (نسخة من candles.html) -->
+<section id="header">
+  <a href="/home" class="logo">July Candles</a>
+  <div>
+    <ul id="navbar">
+      <li><a href="/home">Home</a></li>
+      <li class="dropdown">
+        <a href="/shop">Shop <i class="fa-solid fa-chevron-down"></i></a>
+        <!-- <ul class="dropdown-menu">
+          <li><a href="/shop/candles">Candles</a></li>
+          <li><a href="/shop/perfumes">Perfumes</a></li>
+          <li><a href="/shop/handmade">Handmade</a></li>
+        </ul> -->
+      </li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a class="active" href="/contact">Contact</a></li>
+      <li id="login-btn"><a href="/login" class="login-btn">Login</a></li>
+      <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      <li
+        class="user-avatar user-avatar-dropdown"
+        id="user-avatar"
+        style="display: none"
+      >
+        <div class="avatar-circle" id="avatar-display"></div>
+        <div class="user-avatar-dropdown-content" id="avatar-menu">
+          <a href="/account-settings">🔧 إعدادات الحساب</a>
+              <a href="/my-whitelist">❤️ صفحة المفضله</a>
+              <a href="/admin" class="dashboard-btn" style="display: none;">🔧 لوحة التحكم</a>
+          <a href="/logout">🔓 تسجيل الخروج</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="mobile">
+    <i id="bar" class="fas fa-outdent"></i>
+  </div>
+</section>
+
+<section id="contact-header">
+  <h1>تواصل معنا</h1>
+  <p>نسعد دائماً بخدمتكم ❤️</p>
+</section>
+
+<section id="contact-section">
+  <div class="contact-container">
+    
+    <div class="contact-info">
+      <h2>معلومات التواصل</h2>
+      <p><i class="fas fa-map-marker-alt"></i> الاسكندرية, مصر</p>
+      <p><i class="fas fa-phone"></i> 01208246291 / 01096120305</p>
+      <p><i class="fas fa-envelope"></i> info@julycandles.com</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h2>أرسل لنا رسالة</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="اسمك" required>
+        <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+        <textarea name="message" placeholder="رسالتك" rows="5" required></textarea>
+        <button type="submit" class="btn">إرسال</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+  <!-- فوتر -->
+  <footer class="section-p1">
+    <div class="col">
+      <h4>Contact</h4>
+      <p><strong>Phone:</strong> 01208246291 / 01096120305</p>
+      <p><strong>Hours:</strong> 10:00 AM - 12:00 PM. All days</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <h4>About</h4>
+      <a href="/about">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="/privacy-policy">Privacy Polify</a>
+      <a href="/contact">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="/login">Sign In</a>
+      <a href="/cart">View Cart</a>
+      <a href="/my-whitelist">My WhiteList</a>
+      <a href="/contact">Help</a>
+    </div>
+    <div class="copyright">
+      <p>© 2024, <strong>Belal Ashraf</strong> - HTML CSS JS Ecommerce Template</p>
+    </div>
+  </footer>
+  </section>
+
+  <script src="/js/blog.js"></script>
+
+</body>
+</html>

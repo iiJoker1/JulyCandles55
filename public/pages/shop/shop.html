@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <link rel="stylesheet" href="/styles/shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>July Candles - Shop</title>
+    <link rel="icon" href="/images/logo1.jpg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="/home" class="logo">July Candles</a>
+      <div>
+        <ul id="navbar">
+          <li><a href="/home">Home</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="active"
+              >Shop <i class="fa-solid fa-chevron-down"></i
+            ></a>
+            <!-- <ul class="dropdown-menu">
+              <li><a class="active" href="/shop">Candles</a></li>
+              <li><a href="/shop/perfumes">Perfumes</a></li>
+              <li><a href="/shop/handmade">Handmade</a></li>
+            </ul> -->
+          </li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <div id="cart-icon">
+            <li id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></li>
+            <span class="cart-item-count"></span>
+          </div>
+          <li id="login-btn"><a href="/login" class="login-btn">Login</a></li>
+
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          <li
+            class="user-avatar user-avatar-dropdown"
+            id="user-avatar"
+            style="display: none"
+          >
+            <div class="avatar-circle" id="avatar-display"></div>
+            <div class="user-avatar-dropdown-content" id="avatar-menu">
+              <a href="/account-settings">🔧 إعدادات الحساب</a>
+              <a href="/my-whitelist">❤️ صفحة المفضله</a>
+              <a href="/admin" class="dashboard-btn" style="display: none"
+                >🔧 لوحة التحكم</a
+              >
+              <a href="/logout">🔓 تسجيل الخروج</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+        <div id="cart-icon2">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-item-count2"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="cart2">
+      <h2 class="cart-title">Your Cart</h2>
+      <div class="cart-content">
+        <!-- <div class="cart-box">
+            <img src="/images/candle.png" class="cart-img">
+            <div class="cart-detail">
+                <h2 class="cart-product-title">Perfume Withe Nice Smell</h2>
+                <span class="cart-price">$20</span>
+                <div class="cart-quantity">
+                    <button id="decrement">-</button>
+                    <span class="number">1</span>
+                    <button id="increment">+</button>
+                </div>
+            </div>
+            <i class="fa-solid fa-trash cart-remove"></i>
+        </div> -->
+      </div>
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+      </div>
+      <button class="btn-buy2">Buy Now</button>
+      <button class="btn-view-cart">View Cart</button>
+
+      <i class="fa-solid fa-xmark" id="cart-close2"></i>
+    </div>
+
+    <section class="category-section">
+      <h2 class="category-title">تسوق حسب التصنيف</h2>
+      <div class="category-cards">
+        <div class="category-card">
+          <img
+            src="/images/product images/candles/bubble/all_candles_logo.jpg"
+            alt="Candles"
+          />
+          <h3>الشموع</h3>
+          <a href="/shop" class="category-btn">تسوق الآن</a>
+        </div>
+        <div class="category-card">
+          <img
+            src="/images/product images/hand-made/handmade1.jpg"
+            alt="Handmade"
+          />
+          <h3>الأعمال اليدوية</h3>
+          <a href="/shop" class="category-btn">تسوق الآن</a>
+        </div>
+        <div class="category-card">
+          <img
+            src="/images/product images/perfumes/perfume1.jpg"
+            alt="Perfumes"
+          />
+          <h3>العطور</h3>
+          <a href="/shop" class="category-btn">تسوق الآن</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <!-- <img class="logo" src="/images/july-canles-black-logo.jpg"> -->
+        <h4>Contact</h4>
+        <p><strong>Address:</strong></p>
+        <p><strong>Phone:</strong> 01208246291 / 01096120305</p>
+        <p><strong>Hours:</strong> 10:00 AM - 12:00 PM. All days</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="/about">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="/privacy-policy">Privacy Polify</a>
+        <a href="/contact">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="/login">Sign In</a>
+        <a href="/cart">View Cart</a>
+        <a href="/my-whitelist">My WhiteList</a>
+        <a href="/contact">Help</a>
+      </div>
+      <div class="copyright">
+        <p>
+          © 2024, <strong>Belal Ashraf</strong> - HTML CSS JS Ecommerce Template
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="/js/lCandles.js"></script>
+</html>

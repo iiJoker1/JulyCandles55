@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <link rel="icon" href="/images/logo1.jpg" type="image/x-icon" />
+    <title>July Candles, register account</title>
+  <link rel="stylesheet" href="/styles/register.css" />
+</head>
+<body>
+  <div class="register-container">
+    <h2>إنشاء حساب جديد</h2>
+    <form action="/register" method="POST">
+      <label>الاسم الكامل:</label>
+      <input type="text" name="username" placeholder="مثال: بلال" required>
+
+      <label>اسم الأب:</label>
+      <input type="text" name="fatherName" placeholder="مثال: أشرف ألبدري" required>
+
+      <label>البريد الإلكتروني:</label>
+      <input type="email" name="email" placeholder="@gmail.com" required>
+
+      <label>كلمة المرور:</label>
+      <input type="password" name="password" placeholder="********" required>
+
+      <label>تأكيد كلمة المرور:</label>
+      <input type="password" name="confirmPassword" placeholder="********" required>
+
+      <label>رقم الهاتف (اختياري):</label>
+      <input type="text" name="phone" placeholder="01096120305">
+
+      <label>
+        <input type="checkbox" name="agree" required>
+        أوافق على شروط الاستخدام وحقوق الطبع والنشر
+      </label>
+
+
+      <p id="already-login">بالفعل لديك حساب <a href="/login">تسجيل الدخول</a></p>
+
+      <button type="submit" id="submit">تسجيل</button>
+    </form>
+    <p style="display:none;" id="message">%MESSAGE%</p>
+  </div>
+</body>
+</html>

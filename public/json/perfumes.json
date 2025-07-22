@@ -1,0 +1,72 @@
+[
+  {
+    "id": "28",
+    "name": "Small Bottle",
+    "span": "20 mg",
+    "image": "/images/product images/perfumes/perfume8.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "21",
+    "name": "Mediume Bottle",
+    "span": "50 mg",
+    "image": "/images/product images/perfumes/perfume1.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "22",
+    "name": "Mediume Bottle 2",
+    "span": "50 mg",
+    "image": "/images/product images/perfumes/perfume2.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "23",
+    "name": "Mediume Bottle 3",
+    "span": "50 mg",
+    "image": "/images/product images/perfumes/perfume3.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "24",
+    "name": "Mediume Bottle 4",
+    "span": "20 mg",
+    "image": "/images/product images/perfumes/perfume10.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "25",
+    "name": "Mediume Bottle 4",
+    "span": "50 mg",
+    "image": "/images/product images/perfumes/perfume5.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "26",
+    "name": "Mediume Bottle 5",
+    "span": "50 mg",
+    "image": "/images/product images/perfumes/perfume6.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "27",
+    "name": "Mediume Bottle 6",
+    "span": "50 mg",
+    "image": "/images/product images/perfumes/perfume7.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "29",
+    "name": "Mediume Bottle 7",
+    "span": "20 mg",
+    "image": "/images/product images/perfumes/perfume9.jpg",
+    "price":  1.5
+  },
+  {
+    "id": "30",
+    "name": "Mediume bottle 8",
+    "span": "30 mg",
+    "image": "/images/product images/perfumes/perfume4.jpg",
+    "price":  1.5
+  }
+]

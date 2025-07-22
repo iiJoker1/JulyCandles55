@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    width: 220px;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+      /* الإضافات المهمة لتثبيتها */
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+  height: 100vh; /* علشان تمتد بطول الشاشة */
+  overflow-y: auto; /* في حال كانت طويلة */
+   z-index: 1000; /* عشان تظهر فوق أي محتوى تاني */
+  }
+
+  .sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+    font-weight: bold;
+  }
+
+  .sidebar a:hover {
+    background-color: #374151;
+  }
+
+
+  .main-content {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .main-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+
+  .main-content p {
+    font-size: 18px;
+    color: #4b5563;
+  }
+
+  
+main.dashboard {
+  padding: 30px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+main.dashboard h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #343a40;
+  font-size: 2rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 15px;
+  color: #007bff;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #212529;
+}
+
+  
+
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+
+    .sidebar {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    .sidebar h2 {
+      display: none;
+    }
+
+    .sidebar a {
+      margin: 0;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+
+    .main-content {
+      padding: 20px;
+    }
+  }
+
+    .active {
+    background-color: #374151 !important;
+  }
+  
