@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/admin-styles/dashboard.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="/dashboard" class="active"><h2>لوحة التحكم</h2></a>
+      <a href="/add-product">➕ إضافة منتج</a>
+      <a href="/delete-product">حذف منتج</a>
+      <a href="/orders">📦 الطلبات</a>
+      <a href="/manage-discounts">إدارة أكواد الخصم</a>
+      <a href="/manage-daily-gifts">إدارة الرسائل الترويجيه</a>
+      <a href="/manage-users">👤 إدارة الأشخاص</a>
+      <a href="/logout">🚪 تسجيل الخروج</a>
+    </div>
+
+    <main class="dashboard">
+      <h1>نورتوا متجر توتييي</h1>
+
+      <div class="stats">
+        <div class="card">
+          <h3>إجمالي المنتجات</h3>
+          <p id="total-products">--</p>
+        </div>
+        <div class="card">
+          <h3>الشموع</h3>
+          <p id="candles-count">--</p>
+        </div>
+        <div class="card">
+          <h3>العطور</h3>
+          <p id="perfumes-count">--</p>
+        </div>
+        <div class="card">
+          <h3>الأشغال اليدوية</h3>
+          <p id="handmade-count">--</p>
+        </div>
+        <div class="card">
+          <h3>عدد الطلبات</h3>
+          <p id="total-orders">--</p>
+        </div>
+        <div class="card">
+          <h3>إجمالي المبيعات</h3>
+          <p id="total-sales">-- L.E</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="/js/admin/dashboardStats.js"></script>
+  </body>
+</html>

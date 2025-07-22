@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>فشل تسجيل الدخول</title>
+  <link rel="stylesheet" href="/styles/login-failed.css" />
+</head>
+<body>
+    <div class="toast" id="toast">⚠️ فشل في تسجيل الدخول، تحقق من البيانات.</div>
+
+  <div class="container">
+    <h1>🚫 تعذر تسجيل الدخول</h1>
+    <p>يبدو أن اسم المستخدم أو كلمة المرور غير صحيحة.</p>
+
+    <div class="actions">
+      <a href="/login" class="btn primary">🔐 حاول مرة أخرى</a>
+      <a href="mailto:support@example.com" class="btn secondary">📧 تواصل مع الدعم</a>
+    </div>
+  </div>
+
+  <script>
+    const toast = document.getElementById("toast");
+    toast.classList.add("show");
+    setTimeout(() => {
+      toast.classList.remove("show");
+    }, 4000);
+  </script>
+  
+</body>
+</html>

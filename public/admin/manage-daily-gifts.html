@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إدارة الرسائل الترويجية</title>
+  <link rel="stylesheet" href="/admin-styles/manage-daily-gifts.css">
+  <link rel="stylesheet" href="/admin-styles/dashboard.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="/dashboard"><h2>لوحة التحكم</h2></a>
+        <a href="/add-product">➕ إضافة منتج</a>
+        <a href="/delete-product">حذف منتج</a>
+        <a href="/orders">📦 الطلبات</a>
+        <a href="/manage-discounts">إدارة أكواد الخصم</a>
+        <a href="/manage-daily-gifts" class="active">إدارة الرسائل الترويجيه</a>
+        <a href="/manage-users">👤 إدارة الأشخاص</a>
+        <a href="/logout">🚪 تسجيل الخروج</a>
+      </div>
+
+
+  <div class="container">
+    <h1>إدارة الرسائل الترويجية</h1>
+    <ul id="messagesList"></ul>
+
+    <div class="add-section">
+      <input type="text" id="newMessage" placeholder="أدخل رسالة جديدة...">
+      <button class="add-btn" onclick="addMessage()">إضافة</button>
+    </div>
+
+    <div class="message" id="statusMessage"></div>
+  </div>
+
+  <script src="/js/admin/manageDailyGifts.js"></script>
+</body>
+</html>

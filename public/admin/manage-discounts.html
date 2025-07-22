@@ -1,0 +1,49 @@
+<!-- manage-discounts.html  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>إدارة أكواد الخصم</title>
+    <link rel="stylesheet" href="/admin-styles/discounts.css" />
+    <link rel="stylesheet" href="/admin-styles/dashboard.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="/dashboard"><h2>لوحة التحكم</h2></a>
+      <a href="/add-product">➕ إضافة منتج</a>
+      <a href="/delete-product">حذف منتج</a>
+      <a href="/orders">📦 الطلبات</a>
+      <a href="/manage-discounts" class="active">إدارة أكواد الخصم</a>
+      <a href="/manage-daily-gifts">إدارة الرسائل الترويجيه</a>
+    <a href="/manage-users">👤 إدارة الأشخاص</a>
+      <a href="/logout">🚪 تسجيل الخروج</a>
+    </div>
+
+    <section class="section">
+      <form id="add-code-form">
+        <p id="message" style="text-align: center; color: red; display: none">
+          تم حذف الكود
+        </p>
+        <input type="text" name="code" placeholder="اسم الكود" required />
+        <select name="type" required>
+          <option value="percent">خصم نسبة %</option>
+          <option value="shipping">توصيل مجاني</option>
+          <option value="gift_product">منتج هدية</option>
+        </select>
+        <input type="number" name="value" placeholder="القيمة (اختياري)" />
+        <button type="submit">إضافة الكود</button>
+      </form>
+
+      <div class="discount-section">
+        <div id="codes-list" class="codes-grid"></div>
+        <h1 id="no-codes">.لا توجد اكواد خصم.</h1>
+      </div>
+    </section>
+
+    <script src="/js/admin/manageDiscounts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/admin-styles/dashboard.css" />
+    <link rel="stylesheet" href="/admin-styles/add-product.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="/dashboard"><h2>لوحة التحكم</h2></a>
+      <a href="/add-product">➕ إضافة منتج</a>
+      <a class="active" href="/delete-product">حذف منتج</a>
+      <a href="/orders">📦 الطلبات</a>
+      <a href="/manage-discounts">إدارة أكواد الخصم</a>
+      <a href="/manage-daily-gifts">إدارة الرسائل الترويجيه</a>
+      <a href="/manage-users">👤 إدارة الأشخاص</a>
+      <a href="/admin-logout">🚪 تسجيل الخروج</a>
+    </div>
+
+    <div class="main-content">
+      <div class="container">
+        <h1>حذف منتج</h1>
+        <form action="/delete-product" method="POST">
+          <label>اختر طريقة الحذف:</label>
+          <select name="deleteBy" required>
+            <option value="id">ID</option>
+            <option value="name">اسم المنتج</option>
+          </select>
+
+          <label>القيمة:</label>
+          <input type="text" name="value" required />
+
+          <label>اختر التصنيف:</label>
+          <select name="category" id="category-select" required>
+            <option value="">-- اختر --</option>
+            <option value="candles">Candles</option>
+            <option value="perfumes">Perfumes</option>
+            <option value="handmade">Handmade</option>
+          </select>
+
+          <div id="candle-options" style="display: none">
+            <label>نوع الشمعة:</label>
+            <select name="candleType">
+              <option value="">-- اختر النوع --</option>
+              <option value="large">Large</option>
+              <option value="small">Small</option>
+              <option value="jar">Jar</option>
+              <option value="sheep">Sheep</option>
+            </select>
+          </div>
+
+          <button type="submit">حذف المنتج</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/js/admin/deleteProduct.js"></script>
+  </body>
+</html>

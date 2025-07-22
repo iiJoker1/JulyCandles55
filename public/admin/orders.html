@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/admin-styles/dashboard.css" />
+    <link rel="stylesheet" href="/admin-styles/orders.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="/dashboard"><h2>لوحة التحكم</h2></a>
+      <a href="/add-product">➕ إضافة منتج</a>
+      <a href="/delete-product">🗑️ حذف منتج</a>
+      <a class="active" href="/orders">📦 الطلبات</a>
+      <a href="/manage-discounts">إدارة أكواد الخصم</a>
+      <a href="/manage-daily-gifts">إدارة الرسائل الترويجيه</a>
+      <a href="/manage-users">👤 إدارة الأشخاص</a>
+      <a href="/logout">🚪 تسجيل الخروج</a>
+    </div>
+
+    <div class="main-content">
+      <h1>الطلبات السابقة</h1>
+      <div class="filters">
+        <button onclick="filterOrders('all')">عرض الكل</button>
+        <button onclick="filterOrders('قيد التنفيذ')">قيد التنفيذ</button>
+        <button onclick="filterOrders('جاري التحضير')">جاري التحضير</button>
+        <button onclick="filterOrders('تم التسليم')">تم التسليم</button>
+        <button onclick="filterOrders('تم الإلغاء')">تم الإلغاء</button>
+      </div>
+      <div class="summary" id="summary"></div>
+      <div id="orders-list"></div>
+      <button class="clear-all" id="clear-orders">مسح جميع الطلبات</button>
+      <a href="/logout">تسجيل الخروج</a>
+    </div>
+
+    <script src="/js/admin/orders.js"></script>
+  </body>
+</html>

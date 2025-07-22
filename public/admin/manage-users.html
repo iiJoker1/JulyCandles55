@@ -1,0 +1,38 @@
+<!-- public/admin/manage-users.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>إدارة الأشخاص</title>
+  <link rel="stylesheet" href="/admin-styles/dashboard.css" />
+  <link rel="stylesheet" href="/admin-styles/manage-users.css" />
+  
+</head>
+<body>
+  <div class="sidebar">
+    <a href="/dashboard"><h2>لوحة التحكم</h2></a>
+    <a href="/add-product">➕ إضافة منتج</a>
+    <a href="/delete-product">حذف منتج</a>
+    <a href="/orders">📦 الطلبات</a>
+    <a href="/manage-discounts">إدارة أكواد الخصم</a>
+    <a href="/manage-daily-gifts">إدارة الرسائل الترويجيه</a>
+    <a href="/manage-users" class="active">👤 إدارة الأشخاص</a>
+    <a href="/logout">🚪 تسجيل الخروج</a>
+  </div>
+
+  <table id="users-table">
+    <thead>
+      <tr>
+        <th>المعرف (ID)</th>
+        <th>الاسم</th>
+        <th>اسم الأب</th>
+        <th>البريد الإلكتروني</th>
+        <th>الدور</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="/js/admin/manage-users.js"></script>
+</body>
+</html>
